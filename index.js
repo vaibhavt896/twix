@@ -1,13 +1,6 @@
 import { tweetsData } from './data.js'
 import { v4 as uuidv4 } from 'https://jspm.dev/uuid';
 
-// Load tweetsData from local storage, if available
-const storedTweetsData = localStorage.getItem('tweetsData');
-if (storedTweetsData) {
-  tweetsData = JSON.parse(storedTweetsData);
-  render(); // call render function after retrieving data from local storage
-
-}
 
 
 document.addEventListener('click', function(e){
