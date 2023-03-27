@@ -1,0 +1,253 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+/* typography and icons */
+
+h1{
+    color: #ffbd03;
+    margin-bottom: 10px;
+    font-size: 60px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px black;
+ 
+}
+
+i{
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.fa-solid{
+    color: #999;
+}
+
+.liked{
+    color: red;
+}
+
+.retweeted {
+  color: limegreen;
+}
+
+/* layout */
+
+main, header{
+    width: 100%;
+    max-width: 1200px;
+}
+
+header{
+    padding-bottom: 25px;
+}
+
+.tweet-input-area {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+  max-width: 700px;
+}
+
+/* textareas + btn */
+
+textarea{
+    border: none;
+    resize: none;
+    padding: 10px;
+    margin: 0 0 20px 0;
+    height: 60px;
+    width: 100%;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #ffbd03;
+    border: none;
+    color: black;
+    padding: 10px 19px;
+    border-radius: 20px;
+    width: 20%; 
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+}
+.reply-container{
+display: flex;
+justify-content: center;
+align-items: center;    
+}
+
+.reply-input[type="text"] {
+    margin: 20px 0; 
+  border: 1px solid #1DA1F2 ;
+  padding: 5px 6px;
+  border-radius: 10px;
+  border-bottom: 2px solid #999;
+  outline: none;
+  position: relative;
+  right: 50px;
+}
+
+.reply-input[type="text"]:focus {
+  border-bottom-color: #1E88E5;
+}
+
+.reply-btn{
+    margin: 10px 0;
+    position: relative;
+    right: 45px;
+     background-color:#ffbd03;
+    border: none;
+    color: black;
+    width: 40%;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* tweet */
+
+.tweet{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.tweet-inner{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.tweet-details{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    width: 160px;
+}
+
+.tweet-detail{
+    display: flex;
+    gap: 4px;
+}
+.fa-trash{
+    color: #999;
+}
+
+.tweet-reply{
+    border-top: 1px solid lightgray;
+    padding: 20px 0 0 0px;
+    margin: 10px 0 10px 40px;
+    width: 80%;
+    position: relative;
+    right: 25px
+}
+
+.handle{
+    font-size: 12px;
+    font-weight: 500;
+    color: #555;
+    margin-top: 0;
+}
+
+.tweet-text{
+    /* width: 207px; */
+    font-size: 14px;
+    line-height: 20px;
+}
+
+/* images */
+
+.profile-pic{
+    border: 1px solid lightgray;
+    border-radius: 50%;
+    width: 50px;
+}
+
+/* utility */
+.hidden{
+    display: none;
+}
+
+
+/* Media Queries  */
+
+@media only screen and (max-width: 768px) {
+    html, body {
+        overflow-x: hidden;
+      }
+      textarea {
+        border: none;
+      resize: none;
+      /* padding: 10px; */
+      /* margin: 0 0 20px 0; */
+      height: 60px;
+      width: 55%;
+      font-size: 20px;
+      line-height: 30px;
+      }
+  
+      .tweet-details{
+        display: flex;
+        font-size: 13px;
+        justify-content: space-between;
+        width: 150px;
+    }
+    
+    
+    h1 {
+        font-size: 24px;
+      }
+    
+      /* Tweet Input Area */
+      .tweet-input-area {
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+        margin: 10px;
+      }
+      .feed{
+        max-width: 300px;
+        width:100%
+    }
+      .profile-pic {
+        max-width: 50px;
+      }
+    
+      textarea {
+        height: 60px;
+        font-size: 16px;
+      }
+    
+      button {
+        width: 40%;}
+        .container{
+            max-width: 500px;
+        }
+        header, main {
+            padding: 0 20px;
+          }
+        .tweet-input-area {
+            flex-direction: row;
+            align-items: center;
+            gap: 25px;
+            margin: 10px;
+          }
+  }
+  
