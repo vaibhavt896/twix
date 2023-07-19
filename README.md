@@ -4,7 +4,7 @@
 
 ## Description
 
-Twix is a simple Twitter-like web application that allows users to post and interact with tweets. It provides features such as liking, retweeting, replying, deleting tweets and save to localStorage.
+Twix is a simple Twitter-like web application that allows users to post and interact with tweets. It provides features such as liking, retweeting, replying, deleting tweets, and saving to localStorage.
 
 ## Features
 
@@ -46,7 +46,7 @@ This project was created with the help of the Scrimba platform. Additional featu
 
 ## Contact
 
-For any questions or inquiries, please contact me at (mailto:tiwarvaibhav997@gmail.com).
+For any questions or inquiries, please contact me at (tiwarvaibhav997@gmail.com).
 
 ---
 
