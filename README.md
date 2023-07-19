@@ -30,7 +30,7 @@ Twix is a simple Twitter-like web application that allows users to post and inte
 ## Screenshots
 
 ![Screenshot 1](images/Screenshot-1.png)
-![Screenshot 2](images/Screenshot-1.png)
+![Screenshot 2](images/Screenshot-2.png)
 
 ## Contributing
 
